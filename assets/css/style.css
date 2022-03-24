@@ -1,0 +1,11 @@
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+
+:root{
+  --subtext-color: #807b74;
+}
+
+header{max-width: 50%; margin: 0 auto;}
+h1{font-weight: normal;}
+header span{color: var(--subtext-color);}
+
+.container{max-width: 70%; background-color: lightgray; height: 60vh;}
