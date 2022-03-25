@@ -4,35 +4,35 @@ Milestone 1: stampare in console l'elenco dei membri del team, scrivendo separat
 Milestone 2: stampare i dati all'interno di un contenitore nella pagina html in modo dinamico, creando per ciascun membro del team un elemento che conterrà i suoi dati.
 BONUS: stilizziamo la sezione realizzando le card di ciascun membro del team, come nel mockup allegato.*/
 
-let arr = [
+let team = [
   {
     "nome" : "Wayne Barnett",
     "ruolo" : "Founder & CEO",
-    "foto" : "boo",
+    "foto" : "wayne-barnett-founder-ceo.jpg",
   },
   {
     "nome" : "Angela Caroll",
     "ruolo" : "Chief Editor",
-    "foto" : "boo",
+    "foto" : "angela-caroll-chief-editor.jpg",
   },
   {
     "nome" : "Walter Gordon",
     "ruolo" : "Office Manager",
-    "foto" : "boo",
+    "foto" : "walter-gordon-office-manager.jpg",
   },
   {
     "nome" : "Angela Lopez",
     "ruolo" : "Social Media Manager",
-    "foto" : "boo",
+    "foto" : "angela-lopez-social-media-manager.jpg",
   },
   {
     "nome" : "Scott Estrada",
     "ruolo" : "Developer",
-    "foto" : "boo",
+    "foto" : "scott-estrada-developer.jpg",
   },
   {
     "nome" : "Barbara Ramos",
     "ruolo" : "Graphic Designer",
-    "foto" : "boo",
+    "foto" : "barbara-ramos-graphic-designer.jpg",
   }
 ]
