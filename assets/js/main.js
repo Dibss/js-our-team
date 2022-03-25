@@ -36,3 +36,21 @@ let team = [
     "foto" : "barbara-ramos-graphic-designer.jpg",
   }
 ]
+
+console.log(team);
+
+for(let i = 0; i < team.length; i++){
+  let {nome, ruolo, foto} = team[i];
+  document.getElementById("team").innerHTML += 
+  `
+  <div class="col-3 mb-4 mx-2" id="card">
+    <div>
+      <img class="img-respo" src="./assets/img/${foto}" alt="foto del team member">
+    </div>
+    <div class="row jc-center ai-center flex-column my-2" id="details">
+      <div class="fs-5">${nome}</div>
+      <div class="fs-2">${ruolo}</div>
+    </div>
+  </div>
+  `
+}

@@ -1,11 +1,19 @@
-*{padding: 0; margin: 0; box-sizing: border-box; font-family: sans-serif;}
+*{padding: 0; margin: 0; box-sizing: border-box;}
 
 :root{
   --subtext-color: #807b74;
+  --card-text: #68625b;
+  --card-background: #fff;
+  --body-background: #f5f5f1;
 }
 
-header{max-width: 50%; margin: 0 auto;}
+body{background-color: var(--body-background);}
+
+header{max-width: 50%; margin: 0 auto; font-family: sans-serif;}
 h1{font-weight: normal;}
 header span{color: var(--subtext-color);}
 
-.container{max-width: 70%; background-color: lightgray; height: 60vh;}
+.container{max-width: 70%;}
+
+#card{background-color: var(--card-background);}
+#details{color: var(--card-text);}
